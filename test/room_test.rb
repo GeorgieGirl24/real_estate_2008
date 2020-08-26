@@ -30,7 +30,7 @@ class RoomTest < Minitest::Test
   end
 
   def test_it_can_be_painted
-    skip
+    # skip
     room1 = Room.new(:bedroom, 10, '13')
     room1.paint
 
