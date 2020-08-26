@@ -74,7 +74,7 @@ class HouseTest < Minitest::Test
 
     house.rooms_from_category(:bedroom)
 
-    assert_equal [room_1, room_2] house.rooms_from_category(:bedroom)
+    assert_equal [room_1, room_2], house.rooms_from_category(:bedroom)
   end
 
   def test_it_can_figure_out_the_total_area_of_rooms_in_a_house
